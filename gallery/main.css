@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS for juicebox index */
+
+ol {
+	margin: 10px auto 0px auto ;
+}
+
+ol li {
+	margin-left: 20px;
+}
+
+.hrfix {
+	margin-left: -10px;
+	width: 550px;
+}
+
+#container {
+	width: 750px;
+	margin: auto; 
+  	text-align: left;	
+  	overflow: auto;
+}
+
+#iPadBox {
+	width: 750px;
+	float: left;
+}
+
+#iPadHead {
+	width: 750px;
+	height: 150px;
+	background: url(pix/ipad_head.png) no-repeat;
+}
+
+#iPadScreen {
+	width: 750px;
+	behavior: url(iepngfix.htc);	
+	background: url(pix/ipad_body.png) repeat-y;
+}
+
+#iPadContainer {
+	width: 620px;
+	margin-left: 65px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#iPadTitle {
+	width: 636px;
+	height: 55px;
+	margin-left: 57px;	
+	background: url(pix/ipad_title.png) no-repeat;
+}
+
+.title {
+	width: 130px;
+	height: 30px;
+	position: relative;
+	left: 35px;
+	float: left;
+}
+
+#iPadFooter {
+	width: 750px;
+	height: 210px;
+	background: url(pix/ipad_bottom.png) no-repeat;
+}
+
+.home {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 350px;
+	top: 110px;
+}
+
+.frame {
+	margin: 0px;
+}

@@ -1,0 +1,23 @@
+{
+  "prefetchUpdateDate" : "2017-06-26 18:12:38",
+  "packageName" : "com.samsung.radio",
+  "channelId" : "1014",
+  "partnerAppVersion" : "1620006000",
+  "countryCode" : "KR",
+  "curTime" : "2017-06-27 02:27:46",
+  "timeZone" : "+09:00",
+  "shopAgeLimit" : 19,
+  "forceUpdateVersion" : "2.00.170524.10",
+  "web_socket_server" : "hp-su.glb.samsungmilkradio.com",
+  "connectedGeoCountry" : "KR",
+  "id" : "0",
+  "partnerAppPackageName" : "com.samsung.android.app.music",
+  "clearCacheDate" : "2017-05-31 14:00:01",
+  "shopId" : "1",
+  "resultCode" : 0,
+  "myStations_MAX_LIMIT" : 50,
+  "http_proxy_server" : "hp-su.glb.samsungmilkradio.com",
+  "http_ext_server" : "api-ext.glb.samsungmilkradio.com",
+  "web_socket_port" : "80",
+  "mod_http_server" : "hp-su-mod.glb.samsungmilkradio.com"
+}

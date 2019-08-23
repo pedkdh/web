@@ -1,0 +1,288 @@
+/*  
+Theme Name: iPhone Fan
+Theme URI: http://www.iphonefan.com/
+*/
+
+body {
+	color: #fff;
+	text-decoration: none;
+	background-image: url(pix/ipft_bkg.gif);
+	background-color: #666;
+	margin: 0;
+	font: 12px Arial, Helvetica, Geneva, sans-serif;
+}
+
+a {
+	color: #6a98ca;
+	text-decoration: none;
+	border-style: none;
+}
+
+a:hover {
+	color: #fbcc18;
+	text-decoration: none;
+	border-style: none;
+}
+
+p {
+	font-size: 15px;
+}
+
+hr {
+	border: none 0; 
+	border-top: 2px groove #333;
+	width: 100%;
+	height: 1px;
+}
+
+/* @group Header */
+
+#HeaderBox {
+	height: 100px;
+	margin-top: 0;
+	background: #999 url(pix/ipft_title_bk.png) 0 -50px;
+}
+
+#Header {
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	margin-top: 0;
+}
+
+h1 {
+	margin-top: 0;
+	color: #fff;
+	padding-top: 20px;
+	margin-left: 65px;
+	text-shadow: #666 3px 3px 3px;
+	margin-bottom: 0;
+}
+
+h1 a {
+	color: #fff;
+	font-size: 40px;
+}
+
+h1 a:hover {
+	color: #fff;
+	font-size: 40px;
+}
+
+.description {
+	margin-left: 65px;
+	margin-top: 0;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: #666 2px 2px 2px;
+	font-weight: bold;
+}
+
+/* @end */
+
+#MainContainer { 
+
+  	width: 650px;
+  	text-align: left;	
+  	overflow: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* @end */
+
+/* @group iPhone Body */
+
+#iPhoneBox {
+	width: 650px;
+	float: left;
+}
+
+#iPhoneHead {
+	width: 650px;
+	height: 200px;
+	background: url(pix/ipft_head.png) no-repeat;
+}
+
+#iPhoneScreen {
+	width: 650px;
+	behavior: url(iepngfix.htc);
+	background: url(pix/ipft_body.png) repeat-y;
+}
+
+#iPhoneContainer {
+	width: 520px;
+	margin-left: 65px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#iPhoneSignal {
+	height: 30px;
+	background: url(pix/ipft_signal.png) no-repeat;
+	width: 540px;
+	margin-left: 55px;
+}
+
+.signal {
+	width: 130px;
+	height: 30px;
+	position: relative;
+	left: 35px;
+	float: left;
+}
+
+.clock {
+	height: 30px;
+	width: 100px;
+	position: relative;
+	left: -220px;
+    line-height: 30px;
+	text-align: center;
+	float: right;
+	color: #333;
+	font-size: 17px;
+}
+
+.home {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	left: 300px;
+	top: 60px;
+}
+
+#post1 img {
+	vertical-align:middle;
+	margin-left: 10px;
+	border: 0px;
+}
+#post2 img {
+	vertical-align:middle;
+	margin-left: 10px;
+	border: 0px;
+}
+#post3 img {
+	vertical-align:middle;
+	margin-left: 10px;
+	border: 0px;
+}
+#post4 img {
+	vertical-align:middle;
+	margin-left: 10px;
+	border: 0px;
+}
+
+#iPhoneFooter {
+	width: 650px;
+	height: 220px;
+	background: url(pix/ipft_bottom.png) no-repeat;
+}
+
+#Balloon_Head {
+	height: 15px;
+	width: 480px;
+	margin-top: 25px;
+	margin-left: 15px;
+	margin-bottom: 0;
+	background-image: url(pix/ipft_bllh.png);
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='wp-content/themes/iPhoneFan_WP/pix/ipft_bllh.png', sizingMethod="scale")
+}
+
+.Ballon {
+	width: 480px;
+	background-image: url(pix/ipft_bll.png);
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#rapidin {
+	margin-left: 25px;
+	width: 440px;
+	color: #ccc;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+#rapidin a {
+	color: #fff;
+}
+
+#rapidin a:hover {
+	color: #fbcc18;
+	text-decoration: none;
+}
+
+.titulin {
+	font-weight: bold;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 2px;
+	text-shadow: #333 2px 2px 0;
+	margin-left: 30px;
+	margin-top: 0;
+}
+
+.titulin a {
+	color: #fff;
+}
+
+.titulin a:hover {
+	color: #fbcc18;
+}
+
+.fechita {
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 10px;
+	color: #ccc;
+}
+
+#Balloon_Bottom {
+	width: 480px;
+	margin-bottom: 25px;
+	margin-left: 15px;
+	background: url(pix/ipft_bllb.png) no-repeat;
+	height: 10px;
+}
+
+/* @end */
+
+#iPhoneContainer h2 {
+	font-size: 20px;
+	margin-top: 0;
+	width: 520px;
+	height: 60px;
+	background-color: #376598;
+	line-height: 60px;
+	background-image: url(pix/ipft_h2.png);
+	padding-left: 0px;
+	margin-bottom: 0;
+	text-shadow: #000 2px 2px 0;
+}
+
+h2 a {
+	color: #fff;
+	text-decoration: none;
+	border-style: none;
+}
+
+.hrfix {
+	margin-left: 10px;
+	width: 500px;
+}
+
+#Pogo {
+	margin-top: 60px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Pogo img {
+	margin-bottom: 60px;
+}
+
